@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="icon" type="image" href="img/logo.jpg" />
+</head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+<script>
+    function mostrarFecha() {
+        const fecha = new Date();
+        const opciones = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('fecha').innerHTML = fecha.toLocaleDateString('es-ES', opciones);
+    }
+</script>
+
+<body onload="mostrarFecha()"></body>
+    <p>Hoy es: <time id="fecha"></time></p>
+<body>
+
+    <h1 >
+        <img src="img/logo1.png" alt="Logo" width="50px" height="50px">
+        Construye Bases de Datos
+
+    </h1>
+  
+    <nav>
+        <ul>
+            <li><a href="parcial1.html">Parcial I</a></li>
+            <li><a href="">Parcial II</a></li>
+            <li><a href="">Parcial III</a></li>
+        </ul>
+    </nav>
+
+    <div class="slider-frame">
+        <ul>
+            <li><img src="img/sl1.jpg" alt=""></li>
+            <li><img src="img/sl2.jpg" alt=""></li>
+            <li><img src="img/sl3.jpg" alt=""></li>
+            <li><img src="img/sl4.jpg" alt=""></li>
+        </ul>
+    </div>
+
+    <div class="cont">
+        <div class="art">
+            <div class="secciones">
+                <div>
+                    <h2>Contenido</h2>
+                    <br>
+                    <p>En este proyecto podremos encontrar información básica,
+                    <br> útil y necesaria para el diseño y creación de una base de datos…</p>
+                </div>
+                <div><img src="img/yop.jpg" width="150"></div>
+                <p>  </p>
+                <p>By: Estephany Enríquez Sánchez</p>
+                <br>5to"A"   
+                <br>T/V   
+                <br>Programación</p>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>holaaaaaaaa :c </p>
+    </footer>
+
+</body>
+</html>
